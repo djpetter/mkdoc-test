@@ -2,7 +2,10 @@ site_name: Demo Documentation test
 theme:
   name: material
   features:
-    - toc.integrate
+    # - toc.integrate
+    # - navigation.sections
+    # - navigation.tabs
+    # - navigation.tracking
     - navigation.top
     - search.suggest
     - search.highlight
@@ -10,8 +13,6 @@ theme:
     - content.code.annotation
     - content.code.copy
   language: en
-  hide: 
-    - navigation
   palette:
     - scheme: default
       toggle:

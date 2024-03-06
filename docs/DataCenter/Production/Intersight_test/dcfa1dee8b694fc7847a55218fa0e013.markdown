@@ -1,4 +1,10 @@
 ---
+hide:
+  - navigation
+  - toc
+---
+
+---
 title: Travel through Time with Intersight Monitoring v1
 ---
 
