@@ -2,8 +2,6 @@ site_name: Demo Documentation test
 theme:
   name: material
   features:
-    - navigation.tabs
-    - navigation.sections
     - toc.integrate
     - navigation.top
     - search.suggest
@@ -25,6 +23,8 @@ theme:
         name: Switch to light mode
       primary: blue
       accent: light green        
+
+
 
 extra:
   social:
