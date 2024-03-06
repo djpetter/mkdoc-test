@@ -241,7 +241,7 @@ height="4.245661636045495in"}
 
 Fig 5: Chassis Topology View
 
-## Health, Compliance, and Security
+### Health, Compliance, and Security
 
 Now that we have explored our lab, let's get into more details around
 other aspects of the infrastructure we can monitor. Users can quickly
