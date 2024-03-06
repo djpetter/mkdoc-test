@@ -10,6 +10,8 @@ theme:
     - content.code.annotation
     - content.code.copy
   language: en
+  hide: 
+    - navigation
   palette:
     - scheme: default
       toggle:
