@@ -17,14 +17,14 @@ theme:
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
-      primary: yellow
-      accent: blue
+      primary: blue
+      accent: light green
     - scheme: slate
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
-      primary: teal
-      accent: red        
+      primary: blue
+      accent: light green        
 
 extra:
   social:
