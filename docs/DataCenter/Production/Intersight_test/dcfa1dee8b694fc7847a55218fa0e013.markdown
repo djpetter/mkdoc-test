@@ -255,7 +255,7 @@ your hardware. This takes the guesswork out of maintenance and
 troubleshooting. We will look at these details in this section of the
 lab.
 
-## Server Inventory
+# Server Inventory
 
 The server list view gives us a good overview about one specific device,
 listing a lot of the relevant information like health, model, cpi,
@@ -273,7 +273,7 @@ height="2.535612423447069in"}
 
 Fig 6: Server Inventory
 
-## Service Contract
+# Service Contract
 
 Intersight also correlates some other information such as the service
 contract. This speeds up support calls knowing that the hardware is
@@ -309,7 +309,7 @@ height="2.1458333333333335in"}
 
 Fig 9: Server Contract Status
 
-## Service Details with Health
+# Service Details with Health
 
 On the inventory page we have an overall view of all our servers. Let's
 get more information on a specific server. The server detail view, like
@@ -341,7 +341,7 @@ Fig 10: Server Details Page
 
 4.  
 
-## Hardware Compatibility List
+# Hardware Compatibility List
 
 In the details page of the server, you can now look at the hardware
 compatibility lists (HCL). Intersight Infrastructure Service alerts you
@@ -371,7 +371,7 @@ height="3.331106736657918in"}
 
 Fig 11: Hardware Compatibility Lists(HCLs)
 
-## Alarms
+# Alarms
 
 Cisco Intersight uses alarms as part of its system monitoring and
 management capabilities. Alarms in Intersight are used to notify users
@@ -404,7 +404,7 @@ Fig 12: Alarms
     status of a device. On the right-hand side you can see Requests and
     Advisories.
 
-## Requests
+# Requests
 
 Requests are activities performed on the device from Intersight. This
 could be as simple as changing the power state, but it could include
@@ -422,7 +422,7 @@ height="3.358031496062992in"}
 
 Fig 14: List of Requests
 
-## Advisories
+# Advisories
 
 Advisories correlate information about the device with Cisco\'s database
 to give you further information - you will only see these advisories if
@@ -479,7 +479,7 @@ height="3.585858486439195in"}
 
 Fig 16: My Dashboard
 
-## Built-in Dashboards
+# Built-in Dashboards
 
 Once you open the dashboards service, you will see that there are
 already a few built-in dashboards that cover different aspects of
@@ -491,7 +491,7 @@ All the information presented in the dashboards is based on time-series
 information (datapoints) captured from devices on a regular basis (up to
 once per minute), which is then stored for up to two years.
 
-### Power & Energy Metrics Dashboard
+# Power & Energy Metrics Dashboard
 
 2.  Look at the **Power & Energy Metrics** dashboard first, it provides
     a quick overview of the energy consumed in our server environment.
@@ -505,7 +505,7 @@ height="2.741547462817148in"}
 
 Fig 17: Power and Energy Dashboard
 
-### Fabric Interconnect Metrics Dashboard
+# Fabric Interconnect Metrics Dashboard
 
 3.  Let\'s have a look at another dashboard that has time series
     information, **Fabric Interconnect Metrics**. This dashboard allows
@@ -525,7 +525,7 @@ height="2.728545494313211in"}
 
 Fig 18: Fabric Interconnect Metrics
 
-### Server Dashboard
+# Server Dashboard
 
 4.  Finally, let\'s have a look at the **Servers** dashboard. Unlike the
     previous two dashboards, this dashboard only presents information
@@ -566,7 +566,7 @@ height="2.7082163167104114in"}
 
 Fig 21: Using a filter in Server Dashboard
 
-## Creating a new Dashboard
+# Creating a new Dashboard
 
 We have seen what built-in dashboards can do, time to build our own! --
 
@@ -647,7 +647,7 @@ monitor our environment. We are first going to pick out a device to look
 at the metrics in there, then we will go to the metrics explorer where
 we can create any custom analysis.
 
-## Metric Explorer
+# Metric Explorer
 
 1.  While the previous features have all been very easy to use, the
     explorer is a bit more complex, but offers a lot more freedom in
@@ -855,7 +855,7 @@ are going to give you a challenge that you should complete. You can try
 by yourself, but you can always compare with our solution below, or just
 follow along to understand how we would solve this problem.
 
-## Challenges
+# Challenges
 
 1.  Find the blade with the highest energy (kWh) consumption over the
     last month.
@@ -863,7 +863,7 @@ follow along to understand how we would solve this problem.
 2.  Create a chart that shows the power consumption of each ESXi blades
     per day over the last 2 months.
 
-## Solution 1
+# Solution 1
 
 Let\'s solve the first challenge: finding the blade with the highest
 energy consumption of the last month. There are actually multiple ways
@@ -1000,7 +1000,7 @@ same one that also has the highest utilization in the dashboard widget.
 Please keep in mind that the exact utilization of each blade might be
 different when you run your session, which would affect this result.
 
-## Solution 2
+# Solution 2
 
 The second question is like the first one, but with a twist. We want to
 get the total energy consumption of all our ESXi Blades. A lot of what
@@ -1122,14 +1122,14 @@ For these exercises we are going to give you a challenge that you should
 complete. You can try by yourself, but you can always compare with our
 solution below.
 
-## Challenges
+# Challenges
 
 -   What is the bandwidth of the network interfaces on server 1?
 
 -   Are there any network errors on any of the interfaces of server 2?
     Add a custom widget to the dashboard to monitor this.
 
-## Solution 1
+# Solution 1
 
 Let\'s try to understand the bandwidth of our first blade. We will have
 to find the correct metrics for the job.
@@ -1201,7 +1201,7 @@ Fig 54: Query for Network TX Bytes
 
 Here we can see all network interfaces, both in the RX and TX direction.
 
-## Solution 2
+# Solution 2
 
 This exercise is like the previous one in a lot of ways. We are looking
 at metrics for network interfaces. As we will soon see, those metrics
