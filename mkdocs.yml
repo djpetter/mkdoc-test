@@ -6,7 +6,7 @@ theme:
   icon: 
     repo: fontawesome/brands/github
   features:
-    # - toc.integrate
+    - toc.integrate
     # - navigation.sections
     # - navigation.tabs
     # - navigation.tracking
@@ -43,7 +43,7 @@ extra:
       link: https:linkedin.com      
 
 markdown_extensions:
-   - toc:
+  - toc:
       toc_depth: 2
   - pymdownx.highlight:
      anchor_linenums: true
