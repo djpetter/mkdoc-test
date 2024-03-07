@@ -6,7 +6,7 @@ theme:
   icon: 
     repo: fontawesome/brands/github
   features:
-    - toc.integrate
+    # - toc.integrate
     # - navigation.sections
     # - navigation.tabs
     # - navigation.tracking
