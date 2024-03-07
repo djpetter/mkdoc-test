@@ -1,7 +1,6 @@
 ---
 hide:
-  - navigation
-  #- toc  
+  - navigation 
 title: Travel through Time with Intersight Monitoring v1
 ---
 
@@ -236,8 +235,7 @@ Fig 4: Fabric Interconnect Topology View
     server.
 
 ![A computer screen shot of a server Description automatically
-generated](vertopal_dcfa1dee8b694fc7847a55218fa0e013/media/image7.png){width="6.060605861767279in"
-height="4.245661636045495in"}
+generated](vertopal_dcfa1dee8b694fc7847a55218fa0e013/media/image7.png)
 
 Fig 5: Chassis Topology View
 
