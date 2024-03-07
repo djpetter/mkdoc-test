@@ -1,6 +1,7 @@
 site_name: Demo Documentation test
 theme:
   name: material
+  logo: assets/dCloud.png
   features:
     # - toc.integrate
     # - navigation.sections
