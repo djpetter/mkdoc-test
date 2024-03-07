@@ -1,7 +1,10 @@
 site_name: Demo Documentation test
+repo_url: https://github.com/djpetter/mkdoc-test
 theme:
   name: material
   logo: assets/dCloud.png
+  icon: 
+    repo: fontawesome/brands/github
   features:
     # - toc.integrate
     # - navigation.sections
@@ -30,6 +33,7 @@ theme:
 
 
 extra:
+  homepage: https://dcloud.cisco.com
   social:
     - icon: fontawesome/brands/github-alt
       link: https://github.com
