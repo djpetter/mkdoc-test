@@ -85,8 +85,7 @@ and **automate** your compute, storage, and networking
 infrastructure---wherever it is---from one place.
 
 ![Intersight
-Intro](vertopal_dcfa1dee8b694fc7847a55218fa0e013/media/image1.png){width="4.3742694663167105in"
-height="2.2308770778652667in"}
+Intro](vertopal_dcfa1dee8b694fc7847a55218fa0e013/media/image1.png)
 
 Cisco Intersight provides a robust set of monitoring and metrics
 capabilities that are designed to give users complete visibility and
