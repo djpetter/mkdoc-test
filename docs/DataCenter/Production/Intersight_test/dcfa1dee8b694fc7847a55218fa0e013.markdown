@@ -21,7 +21,7 @@ capability of Intersight: historical metrics. We will show you how you
 can detect problems using these metrics at-a-glance, as well as how you
 can run your own analysis using the metrics explorer. We will also show
 you how you can use this to build up your own dashboards for monitoring
-your environment, and the things that you care about.
+your environment, and the things that you care about.sdfsdfsdf
 
 ## Limitations
 
